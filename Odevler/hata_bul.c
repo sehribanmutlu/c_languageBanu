@@ -1,11 +1,12 @@
-#include <stdion.h>
+include <stdio.h>
 int main()
 {
-    char name[0][10], i
-    printf("Enter the 3 name :\n");
+    char name[0][10];
+    printf("\nSehriban");
+    int i=0;
     for (i = 0; i < 3; i++)
     {
-        printf("Enter the sring :");
+        printf("mutlu :");
         scanf("%s", &name[i]);
     }
     for (i = 0; i < 3; i++)
